@@ -78,12 +78,8 @@ public:
 int main()
 {
     StringCalculator sc;
-    int r = sc.add("");
-    int m = sc.add("1");
-    int x = sc.add("1,2");
-    cout << "The Output of Test Case 1: " << endl;
-    cout << "Input \"\": "<< r << endl;
-    cout << "Input \"1\": "<< m << endl;
-    cout << "Input \"1,2\": "<< x << endl;
+    int x = sc.add("1,2,a,c");
+    cout << "The Output of Test Case 2: " << endl;
+    cout << "Input \"1,2,a,c\": "<< x << endl;
     return 0;
 }
