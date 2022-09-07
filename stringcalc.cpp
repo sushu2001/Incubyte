@@ -67,7 +67,7 @@ public:
                 cout << negNum << " ";
             }
             cout << endl;
-            throw invalid_argument( "Result must not Contain negatives" );
+            throw invalid_argument( "Negatives Not Allowed" );
         }
 
         return addition;           //Return the Result of Adfition of string
@@ -78,8 +78,8 @@ public:
 int main()
 {
     StringCalculator sc;
-    int x = sc.add("1,2,a,c");
-    cout << "The Output of Test Case 4: " << endl;
+    int x = sc.add("-11,-2,-1,-22");
+    cout << "The Output of Test Case 5: " << endl;
     cout << "Input \"1,2,a,c\": "<< x << endl;
     return 0;
 }
