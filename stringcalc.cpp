@@ -80,6 +80,6 @@ int main()
     StringCalculator sc;
     int x = sc.add("-11,-2,-1,-22");
     cout << "The Output of Test Case 5: " << endl;
-    cout << "Input \"1,2,a,c\": "<< x << endl;
+    cout << "Input \"-11,-2,-1,-22\": "<< x << endl;
     return 0;
 }
